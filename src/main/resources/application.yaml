@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: category-tree-bot
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/pandev_category
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+telegram:
+  bot:
+    token: 7874744987:AAHfLmPN6XJJEQDp2DOSuOG7BmucGXXXAVY
+    username: pandev_category_tree_bot
