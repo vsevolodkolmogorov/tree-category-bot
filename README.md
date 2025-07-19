@@ -1,10 +1,28 @@
+### 🏷️ Type: Interview Assignment
+
 # Category Tree Bot
 
-### 📌 Description
+## 📌 Overview
+
 **Category Tree Bot** is a Telegram bot that allows users to create, view, and delete a hierarchical category tree.  
 The bot is built with **Spring Boot**, uses **PostgreSQL** for data storage, and applies the **Command** design pattern to handle commands.
 
----
+
+## 🧩 Architecture
+
+- Uses the **Command** design pattern to handle bot commands.
+- Follows **SOLID** principles.
+- Business logic is implemented in the **service layer**.
+- Categories are stored in **PostgreSQL** as a hierarchical structure (parent → children).
+  
+
+## 🛠️ Tech Stack
+
+- **Java 17+**
+- **Spring Boot**
+- **Spring Data JPA (Hibernate)**
+- **PostgreSQL**
+- **TelegramBots (Java Telegram Bot API)**
 
 ## 🚀 Features
 
@@ -32,26 +50,8 @@ The bot is built with **Spring Boot**, uses **PostgreSQL** for data storage, and
 - **`/help`**  
   Shows all available commands with short descriptions.
 
----
 
-## 🛠️ Technologies
-- **Java 17+**
-- **Spring Boot**
-- **Spring Data JPA (Hibernate)**
-- **PostgreSQL**
-- **TelegramBots (Java Telegram Bot API)**
-
----
-
-## 📂 Architecture
-- Uses the **Command** design pattern to handle bot commands.
-- Follows **SOLID** principles.
-- Business logic is implemented in the **service layer**.
-- Categories are stored in **PostgreSQL** as a hierarchical structure (parent → children).
-
----
-
-## ▶️ Getting Started
+## ▶️ How to Run
 
 ### 1. Clone the repository
 ```bash
